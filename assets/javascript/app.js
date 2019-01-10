@@ -14,10 +14,10 @@ $(document).ready(function() {
     const database = firebase.database();
 
     //Provides initial data to Firebase database
-    database.ref().push({
-        URL: saveURL,
-        dateAdded: firebase.database.ServerValue.TIMESTAMP
-    }); // Closes database.ref.push function
+    //database.ref().push({
+        //URL: saveURL,
+        //dateAdded: firebase.database.ServerValue.TIMESTAMP
+    //}); // Closes database.ref.push function
 
 
 
