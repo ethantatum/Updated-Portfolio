@@ -18,8 +18,8 @@
     }
   
     50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
+      -webkit-transform: scale3d(1.5, 1.5, 1.5);
+      transform: scale3d(1.5, 1.5, 1.5);
     }
   
     to {
@@ -35,8 +35,8 @@
     }
   
     50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
+      -webkit-transform: scale3d(1.5, 1.5, 1.5);
+      transform: scale3d(1.5, 1.5, 1.5);
     }
   
     to {
@@ -48,4 +48,6 @@
   .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
   }
