@@ -1,3 +1,7 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .bgImgCenter {
     background-image: url('../images/asphalt-clear-sky.jpg');
     background-repeat: no-repeat;
