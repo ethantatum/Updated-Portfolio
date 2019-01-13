@@ -1,6 +1,6 @@
 * {
   font-family: 'Titillium Web', sans-serif;
-  color: #C3CBA0;
+  color: #A49882;
 }
 
 .bgImgCenter {
@@ -10,6 +10,15 @@
     position: relative;
     max-width: 100%;
     height: 100%;
+}
+
+header {
+  background-color: #EBF2F3;
+  opacity: 0.65;
+}
+
+#nav-text {
+  color: #7F875E!important;
 }
 
 #intro-text {
@@ -85,4 +94,16 @@
 
   a#sub-link:active {
     text-decoration: none;
+  }
+
+  #profile-section {
+    padding-left: 75px;
+  }
+
+  .btn-link {
+    color: #7F875E;
+  }
+
+  .btn-link:hover {
+    color: #7F875E;
   }
