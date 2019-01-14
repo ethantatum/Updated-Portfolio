@@ -96,9 +96,9 @@ header {
     text-decoration: none;
   }
 
-  #profile-section {
+  /* #profile-section {
     padding-left: 75px;
-  }
+  } */
 
   .btn-link {
     color: #7F875E;
@@ -122,4 +122,9 @@ header {
   .btn-link:active {
     color: #7F875E;
     text-decoration: none;
+  }
+
+  #bootcamp{
+    column-count: 3;
+    list-style-image: url('../images/favicon/code-break-16-246266.png');
   }
