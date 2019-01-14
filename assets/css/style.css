@@ -102,8 +102,24 @@ header {
 
   .btn-link {
     color: #7F875E;
+    text-decoration: none;
+  }
+
+  .btn-link:link {
+    text-decoration: none;
+  }
+
+  .btn-link:visited {
+    color: #7F875E;
+    text-decoration: none;
   }
 
   .btn-link:hover {
     color: #7F875E;
+    text-decoration: none;
+  }
+
+  .btn-link:active {
+    color: #7F875E;
+    text-decoration: none;
   }
