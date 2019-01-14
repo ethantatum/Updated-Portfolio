@@ -1,6 +1,6 @@
 * {
   font-family: 'Titillium Web', sans-serif;
-  color: #A49882;
+  color: #7C6F6F;
 }
 
 .bgImgCenter {
@@ -22,7 +22,11 @@ header {
 }
 
 #intro-text {
-  text-shadow: 1.5px 1px #7F875E;
+  text-shadow: 1px 1px #EDEAEA;
+}
+
+#down-arrow {
+  text-shadow: 1px 1.5px #EDEAEA;
 }
 
 .lower-background {
@@ -34,7 +38,7 @@ header {
 }
 
 .fadeIn {
-    animation-delay: 1s;
+    animation-delay: 0.75s;
 }
 
 @-webkit-keyframes pulse {
@@ -96,35 +100,43 @@ header {
     text-decoration: none;
   }
 
-  /* #profile-section {
-    padding-left: 75px;
-  } */
-
-  .btn-link {
-    color: #7F875E;
+  .project-link {
+    color: #4F4747;
     text-decoration: none;
   }
 
-  .btn-link:link {
+  .project-link:link {
     text-decoration: none;
   }
 
-  .btn-link:visited {
-    color: #7F875E;
+  .project-link:visited {
+    color: #4F4747;
     text-decoration: none;
   }
 
-  .btn-link:hover {
-    color: #7F875E;
-    text-decoration: none;
+  .project-link:hover {
+    color: #4F4747;
+    text-decoration: underline;
   }
 
-  .btn-link:active {
-    color: #7F875E;
+  .project-link:active {
+    color: #4F4747;
     text-decoration: none;
   }
 
   #bootcamp{
     column-count: 3;
     list-style-image: url('../images/favicon/code-break-16-246266.png');
+  }
+
+  h4 {
+    color: #938888;
+  }
+  .project-image:hover {
+    outline: 3px outset #7F875E;
+    outline-offset: 1.5px;
+  }
+
+  .project-link {
+    align-content: center;
   }
